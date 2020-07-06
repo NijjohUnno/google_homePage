@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float:right;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    
+}
+li img{
+    border-radius: 20px;
+    margin-left: 14px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+#Google_Apps{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+#Profile-Photo{
+    margin: 5px 12px 5px 5px;
+}
